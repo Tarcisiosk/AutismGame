@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="16" tilewidth="128" tileheight="128">
+ <tileset firstgid="1" name="PlataformaSpace" tilewidth="128" tileheight="128">
+  <image source="PlataformaSpace.png" trans="ff00ff" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="33" name="PlataformaSpace2" tilewidth="128" tileheight="128">
+  <image source="PlataformaSpace2.png" trans="ff00ff" width="1024" height="512"/>
+ </tileset>
+ <layer name="MapEnd" width="50" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMA6Cx/qFX4xwFEwAA4Lo+OTRYAGU=
+  </data>
+ </layer>
+ <layer name="background" width="50" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYKIBZqaRubR232B393CNj8GGFZDYbFA80G4iFasNE39QE4/mg8GPB0sc4XPHYHHjKB4amJFIdcM1XQ1Xf41iyjAAVrUGug==
+  </data>
+ </layer>
+ <layer name="walls" width="50" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzVVssKwzAM8zW02469pDT//5VLWAWuyKt5UCYQMYmxrahdt8n/Y/M8nh5iAIKG7ekhBuCQdj/cwDl64OTnRasfq+fL8+35obotWBTvIPTr8YOhNbmKfKNYAmtciPBjPanvNnbf2CuBPWLkzgIcrSWM9CMFp+KPlDUE3H3Get6PGjjFmZjphyG6SX0CRvnBM+vaoJN5WuBHa33MbIm6Nr61Ma2pmjrH0BnngLirGFL7ev6cDvzvQawZ02IoR+T6vCC2Z2xVLvzgmfUeVvTeK3TwHpjzSOvGe1urg78TWBd1xvdfo+NI0FIM7pFckevvEGIbqcV+pyiFNZbbS90j1y/wC1vFFnA=
+  </data>
+ </layer>
+ <layer name="FinalDoor" width="50" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAMAiCrrH/JtdAHEpAAAGzdOgDUPI5wACI=
+  </data>
+ </layer>
+ <layer name="FinalWallRemovable" width="50" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVAEFlA81MFw8MMoGAWjgHgAAPteAKk=
+  </data>
+ </layer>
+ <layer name="WallRemovable" width="50" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A2QAIJDwcw6o9RMApGwSgYBaNgFIwCygEAkrwAeQ==
+  </data>
+ </layer>
+ <layer name="FinalWallOpen" width="50" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6C1sX9D18JDSEACfDDXAQCAWlsbACg=
+  </data>
+ </layer>
+ <layer name="WallOpen" width="50" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7B9+HeMgf0kpFXQBPhorgMAAMUCSPwACA==
+  </data>
+ </layer>
+</map>
